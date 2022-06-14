@@ -111,8 +111,10 @@ body {
 }
 
 .todo__task-text {
-    font-size: 20px;
+    font-size: 25px;
     margin-right: 10px;
+    font-weight: 400;
+
 }
 
 .todo__task-del {
