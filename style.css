@@ -113,7 +113,7 @@ body {
 .todo__task-text {
     font-size: 25px;
     margin-right: 10px;
-    font-weight: 400;
+    font-weight: 500;
 
 }
 
@@ -174,7 +174,7 @@ body {
     }
     .todo__task-text {
         font-size: 16px;
-      font-weight: 400;
+      font-weight: 500;
 
     }
     .todo__checkbox div {
