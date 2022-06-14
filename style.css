@@ -45,7 +45,19 @@ body {
     flex-grow: 1;
 }
 
-.todo__add,
+.todo__add {
+    cursor: pointer;
+    text-align: center;
+    line-height: 45px;
+    font-size: 32px;
+    font-weight: 200px;
+    background-color: var(--accent);
+    color: white;
+    border-radius: 10px;
+    width: 45px;
+    height: 45px;
+}
+
 .todo__task-del {
     cursor: pointer;
     text-align: center;
@@ -60,7 +72,7 @@ body {
 }
 
 .todo__list>*:not(:last-child) {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .todo__task {
@@ -114,7 +126,6 @@ body {
     font-size: 25px;
     margin-right: 10px;
     font-weight: 500;
-
 }
 
 .todo__task-del {
@@ -137,8 +148,8 @@ body {
         font-size: 25px;
     }
     .todo__new input {
-        height: 35px;
-        font-size: 13px;
+        height: 37px;
+        font-size: 16px;
     }
     .todo__add {
         cursor: pointer;
@@ -149,38 +160,29 @@ body {
         background-color: var(--accent);
         color: white;
         border-radius: 8px;
-        width: 35px;
-        height: 35px;
+        width: 37px;
+        height: 37px;
     }
     .todo__task-del {
         cursor: pointer;
         text-align: center;
-        line-height: 35px;
-        font-size: 25px;
+        line-height: 27px;
+        font-size: 35px;
         font-weight: 200px;
         background-color: var(--accent);
         color: white;
-        border-radius: 3px;
-        width: 35px;
-        height: 35px;
-    }
-    .todo__task-del {
-        margin-left: auto;
-        margin-right: 0;
-        font-size: 44px;
-        line-height: 15px;
-        height: 20px;
-        width: 20px;
+        border-radius: 5px;
+        width: 30px;
+        height: 30px;
     }
     .todo__task-text {
-        font-size: 16px;
-      font-weight: 500;
-
+        font-size: 18px;
+        font-weight: 400;
     }
     .todo__checkbox div {
-        height: 18px;
-        width: 18px;
+        height: 25px;
+        width: 25px;
         border-radius: 3px;
-        line-height: 18px;
+        line-height: 25px;
     }
 }
