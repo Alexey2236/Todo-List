@@ -1,27 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800&display=swap');
-:root {
-    --accent: #ea5959;
-    --default: rgba(0, 0, 0, 0.3);
-}
-
-* {
-    margin: 0;
-    box-sizing: border-box;
-}
-
 body {
     font-family: 'Nunito', sans-serif;
     background-color: var(--accent);
-    height: 100vh;
+    /* height: 100vh; */
     display: flex;
     justify-content: center;
+    align-items: center;
     padding: 10px 10px;
     font-size: 18px;
     font-weight: 300;
 }
 
 .todo {
-    display: block;
     padding: 15px;
     background-color: #ffff;
     width: 95vw;
@@ -32,7 +21,6 @@ body {
 .todo__new {
     display: flex;
     margin: 16px 0 32px;
-    /* --size: 50px */
 }
 
 .todo__new input {
